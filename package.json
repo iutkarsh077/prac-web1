@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "render-build":"npm install && npm run build"
+    "render-build":"npm install && npm run build",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
