@@ -1,8 +1,9 @@
+import 'dotenv/config';
 import express from 'express';
-
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
+console.log(process.env);
 app.get("/", (req, res)=>{
     return res.status(200).json({msg: "ok report"})
 })
